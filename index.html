@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Meal Finder App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="container-heading">
+            <h1>Meal Finder <span class="txt-primary"> App</span></h1>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="message"><p>Please enter meal name or key words!</p></div>
+        <h1>Are you hungry??</h1>
+        <div class="flex">
+            <form  class="flex" id="submit">
+                <input type="text"  id="search" placeholder="Search for meals or keywords..">
+                <button type="submit" class="search-btn">Search  <span class="txt-primary"><i class="fas fa-utensils"></i></span></button>
+            </form>
+            <button class="random-btn" id="random">Generate Random Meals <span class="txt-primary"><i class="fas fa-random"></i></span></button>
+        </div>
+        <div class="result-heading" id="result-heading"></div>
+        <div class="meals" id="meals"></div>
+        <div class="single-meal" id="single-meal"></div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
